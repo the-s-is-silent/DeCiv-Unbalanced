@@ -1,0 +1,105 @@
+[
+	{
+		"name": "Monument to Yair's Folly",
+		"production": 5,
+		"gold": 5,
+		"science": 5,
+		"culture": 5,
+		"faith": 5,
+		"happiness": 5,
+		"uniques": ["Reveals the entire map",
+			"Quantity of strategic resources produced by the empire +[200]%",
+			"Gain a free [Population Boost] building [in all cities]",
+			"May buy [Great Administrator] units for [100] [Faith] [in all cities] at an increasing price ([50])",
+			"May buy [Great Admiral] units for [100] [Faith] [in all coastal cities] at an increasing price ([50])",
+			"May buy [Great Engineer] units for [100] [Faith] [in all cities] at an increasing price ([50])",
+			"May buy [Great Farmer] units for [100] [Faith] [in all cities] at an increasing price ([50])",
+			"May buy [Great General] units for [100] [Faith] [in all cities] at an increasing price ([50])",
+			"May buy [Great Sage] units for [100] [Faith] [in all cities] at an increasing price ([50])",
+			"May buy [Great Scientist] units for [100] [Faith] [in all cities] at an increasing price ([50])",
+			"Triggers a global alert upon completion",
+			"Automatically built in all cities where it is buildable",
+			"Can only be built [in capital]",
+			"Only available <after adopting [Centralization]>",
+			"Unsellable",
+			"Destroyed when the city is captured"]
+	},
+	{
+		"name": "Population Boost",
+		"food": 10,
+		"happiness": 4,
+		"uniques": ["[+4] population [in this city]",
+			"[+1 Food] from [Food source] tiles [in this city]",
+			"Unbuildable",
+			"Unsellable",
+			"Cannot be purchased",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Productivity Boost",
+		"production": 50,
+		"cost": 1,
+		"hurryCostModifier": -99,
+		"uniques": ["Only available <if [Monument to Yair's Folly] is constructed>",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Overflowing Pure Water Reservoir",
+		"gold": 50,
+		"cost": 1,
+		"hurryCostModifier": -99,
+		"uniques": ["Only available <if [Monument to Yair's Folly] is constructed>",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Research Boost",
+		"science": 50,
+		"cost": 1,
+		"hurryCostModifier": -99,
+		"uniques": ["Only available <if [Monument to Yair's Folly] is constructed>",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Culture Boost",
+		"production": 50,
+		"cost": 1,
+		"hurryCostModifier": -99,
+		"uniques": ["Only available <if [Monument to Yair's Folly] is constructed>",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Easy Evangelism",
+		"faith": 50,
+		"cost": 1,
+		"hurryCostModifier": -99,
+		"uniques": ["Only available <if [Monument to Yair's Folly] is constructed>",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Hedonist's Sanctuary",
+		"happiness": 5,
+		"cost": 1,
+		"hurryCostModifier": -99,
+		"uniques": ["[+1 Happiness] per [1] population [in this city]",
+			"Only available <if [Monument to Yair's Folly] is constructed>",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Great Redoubt",
+		"cityStrength": 50,
+		"cityHealth": 500,
+		"cost": 1,
+		"hurryCostModifier": -99,
+		"uniques": ["New [Military] units start with [9999] XP [in this city]",
+			"Only available <if [Monument to Yair's Folly] is constructed>",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"]
+	}
+]
