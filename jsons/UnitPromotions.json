@@ -1,0 +1,15 @@
+[
+	{
+		"name": "[Ranger] ability",
+		"uniques": [
+			"Great General",
+			"[+20]% Strength <when fighting in [Friendly Land] tiles>",
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"[+50]% XP gained from combat",
+			"Can instantly construct a [Citadel] improvement <[2] times> <after which this unit is consumed>",
+			"Uncapturable"
+		],
+		"column": 6,
+		"row": 10
+	}
+]
