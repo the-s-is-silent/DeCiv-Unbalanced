@@ -1,6 +1,6 @@
 [
 	{
-		"name": "Monument to Yairm's Folly",
+		"name": "Monument to Yair's Folly",
 		"production": 5,
 		"gold": 5,
 		"science": 5,
@@ -10,7 +10,9 @@
 		"cost": 1,
 		"uniques": ["Reveals the entire map",
 			"Quantity of strategic resources produced by the empire +[200]%",
-			"Gain a free [Population Boost] building [in all cities]",
+			"[2] free [Civilian Convoy] units appear",
+			"[+5] Movement <for [Civilian Convoy] units>",
+			"Gain a free [Population Boost] [in all cities]",
 			"May buy [Great Administrator] units for [100] [Faith] [in all cities] at an increasing price ([50])",
 			"May buy [Great Admiral] units for [100] [Faith] [in all coastal cities] at an increasing price ([50])",
 			"May buy [Great Engineer] units for [100] [Faith] [in all cities] at an increasing price ([50])",
@@ -42,7 +44,7 @@
 		"production": 50,
 		"cost": 1,
 		"hurryCostModifier": -99,
-		"uniques": ["Only available <if [Monument to Yairm's Folly] is constructed>",
+		"uniques": ["Only available <if [Monument to Yair's Folly] is constructed>",
 			"Destroyed when the city is captured",
 			"Will not be displayed in Civilopedia"]
 	},
@@ -51,7 +53,7 @@
 		"gold": 50,
 		"cost": 1,
 		"hurryCostModifier": -99,
-		"uniques": ["Only available <if [Monument to Yairm's Folly] is constructed>",
+		"uniques": ["Only available <if [Monument to Yair's Folly] is constructed>",
 			"Destroyed when the city is captured",
 			"Will not be displayed in Civilopedia"]
 	},
@@ -60,7 +62,7 @@
 		"science": 50,
 		"cost": 1,
 		"hurryCostModifier": -99,
-		"uniques": ["Only available <if [Monument to Yairm's Folly] is constructed>",
+		"uniques": ["Only available <if [Monument to Yair's Folly] is constructed>",
 			"Destroyed when the city is captured",
 			"Will not be displayed in Civilopedia"]
 	},
@@ -69,7 +71,7 @@
 		"production": 50,
 		"cost": 1,
 		"hurryCostModifier": -99,
-		"uniques": ["Only available <if [Monument to Yairm's Folly] is constructed>",
+		"uniques": ["Only available <if [Monument to Yair's Folly] is constructed>",
 			"Destroyed when the city is captured",
 			"Will not be displayed in Civilopedia"]
 	},
@@ -78,7 +80,7 @@
 		"faith": 50,
 		"cost": 1,
 		"hurryCostModifier": -99,
-		"uniques": ["Only available <if [Monument to Yairm's Folly] is constructed>",
+		"uniques": ["Only available <if [Monument to Yair's Folly] is constructed>",
 			"Destroyed when the city is captured",
 			"Will not be displayed in Civilopedia"]
 	},
@@ -88,7 +90,7 @@
 		"cost": 1,
 		"hurryCostModifier": -99,
 		"uniques": ["[+1 Happiness] per [1] population [in this city]",
-			"Only available <if [Monument to Yairm's Folly] is constructed>",
+			"Only available <if [Monument to Yair's Folly] is constructed>",
 			"Destroyed when the city is captured",
 			"Will not be displayed in Civilopedia"]
 	},
@@ -99,7 +101,7 @@
 		"cost": 1,
 		"hurryCostModifier": -99,
 		"uniques": ["New [Military] units start with [9999] XP [in this city]",
-			"Only available <if [Monument to Yairm's Folly] is constructed>",
+			"Only available <if [Monument to Yair's Folly] is constructed>",
 			"Destroyed when the city is captured",
 			"Will not be displayed in Civilopedia"]
 	}
