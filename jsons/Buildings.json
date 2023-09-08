@@ -101,7 +101,7 @@
 		"cityHealth": 500,
 		"cost": 1,
 		"hurryCostModifier": -99,
-		"uniques": ["New [Military] units start with [9999] XP [in this city]",
+		"uniques": ["New [Military] units start with [9999] Experience [in this city]",
 			"Only available <if [Monument to Yair's Folly] is constructed>",
 			"Destroyed when the city is captured",
 			"Will not be displayed in Civilopedia"]
