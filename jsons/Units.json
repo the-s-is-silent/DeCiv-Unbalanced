@@ -256,8 +256,6 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 200,
-		"obsoleteTech": "Networking",
-		"upgradesTo": "Automated Great Caravan",
 		"uniques": ["Mounted",
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [10] Influence",
 			"Can instantly construct a [Wasteland Station] improvement <[2] times> <after which this unit is consumed>",
@@ -267,6 +265,5 @@
 			"Only available <in cities with a [Contract with Survivors]>",
 			"Requires at least [5] population",
 			"Cannot be purchased"]
-		//Should also gain the Merchant of Venice ability to puppet City-States once BNW content is implemented
-	},
+	}
 ]
