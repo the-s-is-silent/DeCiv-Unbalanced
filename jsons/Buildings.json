@@ -1,6 +1,7 @@
 [
 	{
 		"name": "Monument to Yair's Folly",
+		"isNationalWonder": true,
 		"production": 5,
 		"gold": 5,
 		"science": 5,
@@ -12,6 +13,7 @@
 			"Quantity of strategic resources produced by the empire +[200]%",
 			"[2] free [Civilian Convoy] units appear",
 			"[+5] Movement <for [Civilian Convoy] units>",
+			"[Civilian Convoy] units gain the [Reconnaissance I] promotion",
 			"Gain a free [Population Boost] [in all cities]",
 			"May buy [Great Administrator] units for [100] [Faith] [in all cities] at an increasing price ([50])",
 			"May buy [Great Admiral] units for [100] [Faith] [in all coastal cities] at an increasing price ([50])",
@@ -21,7 +23,6 @@
 			"May buy [Great Sage] units for [100] [Faith] [in all cities] at an increasing price ([50])",
 			"May buy [Great Scientist] units for [100] [Faith] [in all cities] at an increasing price ([50])",
 			"Triggers a global alert upon completion",
-			"Automatically built in all cities where it is buildable",
 			"Can only be built [in capital]",
 			"Only available <after adopting [Centralization]>",
 			"Unsellable",
@@ -68,7 +69,7 @@
 	},
 	{
 		"name": "Culture Boost",
-		"production": 50,
+		"culture": 50,
 		"cost": 1,
 		"hurryCostModifier": -99,
 		"uniques": ["Only available <if [Monument to Yair's Folly] is constructed>",
