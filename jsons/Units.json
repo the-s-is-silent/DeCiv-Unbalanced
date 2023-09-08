@@ -192,7 +192,7 @@
 		"movement": 2
 	},
 
-	//Expansion mod support (Lights, Camera, Destruction; Outlaws of the Wastes)
+	//Expansion mod support (Lights, Camera, Destruction; Naciones pa Deciv ES; Outlaws of the Wastes)
 	{
 		"name": "Opinionspeople",
 		"replaces": "Great General",
@@ -202,6 +202,20 @@
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"Can instantly construct a [Academy] improvement <[2] times> <after which this unit is consumed>",
 			"Can instantly construct a [Settlement] improvement <[2] times> <after which this unit is consumed>",
+			"Great Person - [War]",
+			"Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Blessed General",
+		"unitType": "Civilian",
+		"replaces": "Great General",
+		"uniqueTo": "The Unified Barbarians",
+		"uniques": ["[+15]% Strength bonus for [Military] units within [2] tiles",
+			"Can see over obstacles",
+			"Ignores terrain cost",
+			"Can instantly construct a [Citadel] improvement <[2] times> <after which this unit is consumed>",
+			"[-10%] Strength for enemy [Military] units in adjacent [All] tiles",
 			"Great Person - [War]",
 			"Unbuildable", "Uncapturable"],
 		"movement": 2
@@ -228,7 +242,8 @@
 		"uniques": ["Can instantly construct a [Outpost] improvement <[2] times> <after which this unit is consumed>",
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [45] Influence",
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
-			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+			"Great Person - [War]",
+			"Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
 	{
