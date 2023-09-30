@@ -44,8 +44,7 @@
 	{
 		"name": "Productivity Boost",
 		"production": 50,
-		"cost": 1,
-		"hurryCostModifier": -99,
+		"cost": 0,
 		"uniques": ["Only available <if [Monument to Yair's Folly] is constructed>",
 			"Destroyed when the city is captured",
 			"Will not be displayed in Civilopedia"]
@@ -53,8 +52,7 @@
 	{
 		"name": "Overflowing Pure Water Reservoir",
 		"gold": 50,
-		"cost": 1,
-		"hurryCostModifier": -99,
+		"cost": 0,
 		"uniques": ["Only available <if [Monument to Yair's Folly] is constructed>",
 			"Destroyed when the city is captured",
 			"Will not be displayed in Civilopedia"]
@@ -62,8 +60,7 @@
 	{
 		"name": "Research Boost",
 		"science": 50,
-		"cost": 1,
-		"hurryCostModifier": -99,
+		"cost": 0,
 		"uniques": ["Only available <if [Monument to Yair's Folly] is constructed>",
 			"Destroyed when the city is captured",
 			"Will not be displayed in Civilopedia"]
@@ -71,8 +68,7 @@
 	{
 		"name": "Culture Boost",
 		"culture": 50,
-		"cost": 1,
-		"hurryCostModifier": -99,
+		"cost": 0,
 		"uniques": ["Only available <if [Monument to Yair's Folly] is constructed>",
 			"Destroyed when the city is captured",
 			"Will not be displayed in Civilopedia"]
@@ -80,8 +76,7 @@
 	{
 		"name": "Easy Evangelism",
 		"faith": 50,
-		"cost": 1,
-		"hurryCostModifier": -99,
+		"cost": 0,
 		"uniques": ["Only available <if [Monument to Yair's Folly] is constructed>",
 			"Destroyed when the city is captured",
 			"Will not be displayed in Civilopedia"]
@@ -89,10 +84,28 @@
 	{
 		"name": "Hedonist's Sanctuary",
 		"happiness": 5,
-		"cost": 1,
-		"hurryCostModifier": -99,
-		"uniques": ["[+1 Happiness] per [1] population [in this city]",
+		"cost": 0,
+		"uniques": ["[+1 Happiness] per [5] population [in this city]",
 			"Only available <if [Monument to Yair's Folly] is constructed>",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Internment Camp",
+		"cost": 0,
+		"replacementTextForUniques": "Converts 1 unit of population in this city to 5 units of slave labor. Cannot be built by factions that outlaw slavery. Cannot be purchased or sold, and will be destroyed if the city is lost.",
+		"uniques": ["[-1] population [in this city]",
+			"Provides [5] [Slaves]",
+			"Only available <if [Monument to Yair's Folly] is constructed>",
+			"Unbuildable <for [Camelot Foundation]>",
+			"Unbuildable <for [Capitalia]>",
+			"Unbuildable <for [Commonwealth]>",
+			"Unbuildable <for [Deseret2]>",
+			"Unbuildable <for [Elysium]>",
+			"Unbuildable <for [New Star]>",
+			"Unbuildable <for [Nuevo Paraiso]>",
+			"Cannot be purchased",
+			"Unsellable",
 			"Destroyed when the city is captured",
 			"Will not be displayed in Civilopedia"]
 	},
@@ -100,9 +113,9 @@
 		"name": "Great Redoubt",
 		"cityStrength": 50,
 		"cityHealth": 500,
-		"cost": 1,
-		"hurryCostModifier": -99,
-		"uniques": ["New [Military] units start with [9999] Experience [in this city]",
+		"cost": 0,
+		"uniques": ["Provides [5] [Weapons]",
+			"New [Military] units start with [9999] Experience [in this city]",
 			"Only available <if [Monument to Yair's Folly] is constructed>",
 			"Destroyed when the city is captured",
 			"Will not be displayed in Civilopedia"]
