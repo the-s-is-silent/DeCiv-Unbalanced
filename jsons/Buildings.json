@@ -25,9 +25,7 @@
 			"May buy [Great Scientist] units for [100] [Faith] [in all cities] at an increasing price ([50])",
 			"Triggers a global alert upon completion",
 			"Can only be built [in capital]",
-			"Only available <after adopting [Centralization]>",
-			"Unsellable",
-			"Destroyed when the city is captured"]
+			"Only available <after adopting [Centralization]>"]
 	},
 	{
 		"name": "Population Boost",

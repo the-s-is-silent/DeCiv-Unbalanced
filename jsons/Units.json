@@ -280,5 +280,16 @@
 			"Only available <in cities with a [Contract with Survivors]>",
 			"Requires at least [5] population",
 			"Cannot be purchased"]
+	},
+	{
+		"name": "Persevering Pax Researcher",
+		"uniqueTo": "The Pax",
+		"unitType": "Civilian",
+		"uniques": ["May withdraw from melee ([100]%)",
+			"Can instantly construct a [Preservator] improvement <[2] times> <after which this unit is consumed>",
+			"Is part of Great Person group [Scientist]",
+			"Great Person - [Science]",
+			"Unbuildable", "Uncapturable"],
+		"movement": 2
 	}
 ]
