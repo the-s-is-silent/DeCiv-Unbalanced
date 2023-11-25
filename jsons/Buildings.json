@@ -11,7 +11,7 @@
 		"cost": 0,
 		"uniques": ["Reveals the entire map",
 			"Quantity of strategic resources produced by the empire +[200]%",
-			"[-90]% tile improvement construction time",
+			"[-90]% construction time for [All] improvements",
 			"[2] free [Civilian Convoy] units appear",
 			"[+5] Movement <for [Civilian Convoy] units>",
 			"[Civilian] units gain the [Reconnaissance I] promotion",
