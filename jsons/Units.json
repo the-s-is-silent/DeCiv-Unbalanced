@@ -217,7 +217,7 @@
 			"Can see over obstacles",
 			"Ignores terrain cost",
 			"Can instantly construct a [Citadel] improvement <[2] times> <after which this unit is consumed>",
-			"[-10%] Strength for enemy [Military] units in adjacent [All] tiles",
+			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
 			"Great Person - [War]",
 			"Unbuildable", "Uncapturable"],
 		"movement": 2
@@ -288,10 +288,8 @@
 		"name": "Persevering Pax Researcher",
 		"uniqueTo": "The Pax",
 		"unitType": "Civilian",
-		"uniques": ["May withdraw from melee ([100]%)",
+		"uniques": ["May withdraw before melee ([100]%)",
 			"Can instantly construct a [Preservator] improvement <[2] times> <after which this unit is consumed>",
-			"Is part of Great Person group [Scientist]",
-			"Great Person - [Science]",
 			"Unbuildable", "Uncapturable"],
 		"movement": 2
 	}

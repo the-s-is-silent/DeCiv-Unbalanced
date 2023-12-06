@@ -96,6 +96,7 @@
 		"uniques": ["[-1] population [in this city]",
 			"Provides [5] [Slaves]",
 			"Only available <if [Monument to Yair's Folly] is constructed>",
+			"Unbuildable <for [Atlas]>",
 			"Unbuildable <for [Camelot Foundation]>",
 			"Unbuildable <for [Capitalia]>",
 			"Unbuildable <for [Commonwealth]>",
