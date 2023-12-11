@@ -12,6 +12,7 @@
 		"uniques": ["Reveals the entire map",
 			"Quantity of strategic resources produced by the empire +[200]%",
 			"[-90]% construction time for [All] improvements",
+			"[-90]% Gold cost of acquiring tiles [in all cities]",
 			"[2] free [Civilian Convoy] units appear",
 			"[+5] Movement <for [Civilian Convoy] units>",
 			"[Civilian] units gain the [Reconnaissance I] promotion",
@@ -115,7 +116,7 @@
 		"cityHealth": 500,
 		"cost": 0,
 		"uniques": ["Provides [5] [Weapons]",
-			"New [Military] units start with [9999] Experience [in this city]",
+			"New [Military] units start with [5000] Experience [in this city]",
 			"Only available <if [Monument to Yair's Folly] is constructed>",
 			"Destroyed when the city is captured",
 			"Will not be displayed in Civilopedia"]
