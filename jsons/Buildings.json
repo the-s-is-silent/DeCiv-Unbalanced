@@ -1,6 +1,6 @@
 [
 	{
-		"name": "Monument to Yair's Folly",
+		"name": "Monument to Yairm's Folly",
 		"isNationalWonder": true,
 		"production": 5,
 		"gold": 5,
@@ -32,11 +32,11 @@
 		"name": "Population Boost",
 		"food": 10,
 		"happiness": 4,
+		"specialistSlots": {"Farmer": 5},
 		"cost": 0,
 		"uniques": ["[+4] population [in this city]",
 			"[+1 Food] from [Food source] tiles [in this city]",
-			"Automatically built in all cities where it is buildable",
-			"Only available <if [Monument to Yair's Folly] is constructed>",
+			"Only available <if [Monument to Yairm's Folly] is constructed>",
 			"Unsellable",
 			"Destroyed when the city is captured",
 			"Will not be displayed in Civilopedia"]
@@ -44,32 +44,36 @@
 	{
 		"name": "Productivity Boost",
 		"production": 50,
+		"specialistSlots": {"Engineer": 5},
 		"cost": 0,
-		"uniques": ["Only available <if [Monument to Yair's Folly] is constructed>",
+		"uniques": ["Only available <if [Monument to Yairm's Folly] is constructed>",
 			"Destroyed when the city is captured",
 			"Will not be displayed in Civilopedia"]
 	},
 	{
 		"name": "Overflowing Pure Water Reservoir",
 		"gold": 50,
+		"specialistSlots": {"Merchant": 5},
 		"cost": 0,
-		"uniques": ["Only available <if [Monument to Yair's Folly] is constructed>",
+		"uniques": ["Only available <if [Monument to Yairm's Folly] is constructed>",
 			"Destroyed when the city is captured",
 			"Will not be displayed in Civilopedia"]
 	},
 	{
 		"name": "Research Boost",
 		"science": 50,
+		"specialistSlots": {"Scientist": 5},
 		"cost": 0,
-		"uniques": ["Only available <if [Monument to Yair's Folly] is constructed>",
+		"uniques": ["Only available <if [Monument to Yairm's Folly] is constructed>",
 			"Destroyed when the city is captured",
 			"Will not be displayed in Civilopedia"]
 	},
 	{
 		"name": "Culture Boost",
 		"culture": 50,
+		"specialistSlots": {"Administrator": 5},
 		"cost": 0,
-		"uniques": ["Only available <if [Monument to Yair's Folly] is constructed>",
+		"uniques": ["Only available <if [Monument to Yairm's Folly] is constructed>",
 			"Destroyed when the city is captured",
 			"Will not be displayed in Civilopedia"]
 	},
@@ -77,7 +81,7 @@
 		"name": "Easy Evangelism",
 		"faith": 50,
 		"cost": 0,
-		"uniques": ["Only available <if [Monument to Yair's Folly] is constructed>",
+		"uniques": ["Only available <if [Monument to Yairm's Folly] is constructed>",
 			"Destroyed when the city is captured",
 			"Will not be displayed in Civilopedia"]
 	},
@@ -86,7 +90,7 @@
 		"happiness": 5,
 		"cost": 0,
 		"uniques": ["[+1 Happiness] per [5] population [in this city]",
-			"Only available <if [Monument to Yair's Folly] is constructed>",
+			"Only available <if [Monument to Yairm's Folly] is constructed>",
 			"Destroyed when the city is captured",
 			"Will not be displayed in Civilopedia"]
 	},
@@ -96,7 +100,7 @@
 		"replacementTextForUniques": "Converts 1 unit of population in this city to 5 units of slave labor. Cannot be built by factions that outlaw slavery. Cannot be purchased or sold, and will be destroyed if the city is lost.",
 		"uniques": ["[-1] population [in this city]",
 			"Provides [5] [Slaves]",
-			"Only available <if [Monument to Yair's Folly] is constructed>",
+			"Only available <if [Monument to Yairm's Folly] is constructed>",
 			"Unbuildable <for [Atlas]>",
 			"Unbuildable <for [Camelot Foundation]>",
 			"Unbuildable <for [Capitalia]>",
@@ -117,7 +121,7 @@
 		"cost": 0,
 		"uniques": ["Provides [5] [Weapons]",
 			"New [Military] units start with [5000] Experience [in this city]",
-			"Only available <if [Monument to Yair's Folly] is constructed>",
+			"Only available <if [Monument to Yairm's Folly] is constructed>",
 			"Destroyed when the city is captured",
 			"Will not be displayed in Civilopedia"]
 	}
