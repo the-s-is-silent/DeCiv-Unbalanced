@@ -110,6 +110,7 @@
 		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>",
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"Can instantly construct a [Citadel] improvement <[2] times> <after which this unit is consumed>",
+			"Can be earned through combat",
 			"Great Person - [War]",
 			"Unbuildable", "Uncapturable"],
 		"movement": 2
@@ -122,6 +123,7 @@
 		"uniques": ["[+15]% Strength bonus for [Military] units within [2] tiles",
 			"Can hurry technology research",
 			"Can instantly construct a [Crystal Refinery] improvement <[2] times> <after which this unit is consumed>",
+			"Can be earned through combat",
 			"Great Person - [War]",
 			"Unbuildable", "Uncapturable"],
 		"movement": 2
@@ -138,7 +140,13 @@
 		"cost": 500,
 		"rangedStrength": 35,
 		"interceptRange": 1,
-		"uniques": ["Personnel", "Great Person - [War]", "Unbuildable", "Consumes [1] [Weapons]"],
+		"uniques": [
+			"Personnel",
+			"Can be earned through combat",
+			"Great Person - [War]",
+			"Unbuildable",
+			"Consumes [1] [Weapons]"
+		],
 		"promotions": ["Reconnaissance I", "Gas Mask", "[Ranger] ability"],
 		"attackSound": "shot"
 	},
@@ -151,6 +159,7 @@
 			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"Can instantly construct a [Prison farm] improvement <[2] times> <after which this unit is consumed>",
+			"Can be earned through combat",
 			"Great Person - [War]",
 			"Unbuildable", "Uncapturable"],
 		"movement": 2
@@ -165,6 +174,7 @@
 			"All adjacent units heal [+15] HP when healing",
 			"[+15] HP when healing",
 			"Can instantly construct a [Outpost] improvement <[2] times> <after which this unit is consumed>",
+			"Can be earned through combat",
 			"Great Person - [War]",
 			"Uncapturable", "Unbuildable"],
 		"movement": 5
@@ -178,6 +188,7 @@
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"[-15]% Strength for enemy [Military] units in adjacent [All] tiles",
 			"Can instantly construct a [Citadel] improvement <[2] times> <after which this unit is consumed>",
+			"Can be earned through combat",
 			"Great Person - [War]",
 			"Uncapturable", "Unbuildable"],
 		"promotions": ["Gas Mask", "Radioactive"],
@@ -204,6 +215,7 @@
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"Can instantly construct a [Academy] improvement <[2] times> <after which this unit is consumed>",
 			"Can instantly construct a [Settlement] improvement <[2] times> <after which this unit is consumed>",
+			"Can be earned through combat",
 			"Great Person - [War]",
 			"Unbuildable", "Uncapturable"],
 		"movement": 2
@@ -218,6 +230,7 @@
 			"Ignores terrain cost",
 			"Can instantly construct a [Citadel] improvement <[2] times> <after which this unit is consumed>",
 			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
+			"Can be earned through combat",
 			"Great Person - [War]",
 			"Unbuildable", "Uncapturable"],
 		"movement": 2
@@ -244,6 +257,7 @@
 		"uniques": ["Can instantly construct a [Outpost] improvement <[2] times> <after which this unit is consumed>",
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [45] Influence",
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"Can be earned through combat",
 			"Great Person - [War]",
 			"Unbuildable", "Uncapturable"],
 		"movement": 2
@@ -288,7 +302,7 @@
 		"name": "Persevering Pax Researcher",
 		"uniqueTo": "The Pax",
 		"unitType": "Civilian",
-		"uniques": ["May withdraw before melee ([100]%)",
+		"uniques": ["Withdraws before melee combat <with [100]% chance>",
 			"Can instantly construct a [Preservator] improvement <[2] times> <after which this unit is consumed>",
 			"Unbuildable", "Uncapturable"],
 		"movement": 2
