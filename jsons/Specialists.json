@@ -1,0 +1,25 @@
+[
+	{
+		"name": "Archivar",
+		"science": 2,
+		"culture": 2,
+		"greatPersonPoints": {"Great Scientist": 4, "Great Administrator": 2},
+		"color": [80, 16, 248]
+	},
+	{
+		"name": "Politician",
+		"culture": 1,
+		"happiness": 2,
+		"production": 1,
+		"greatPersonPoints": {"Great Engineer": 2, "Great Merchant": 2, "Great Administrator": 2},
+		"color": [150, 51, 130]
+	},
+	{
+		"name": "Entrepreneur",
+		"production": 2,
+		"food": 1,
+		"gold": 1,
+		"greatPersonPoints": {"Great Engineer": 2, "Great Farmer": 2, "Great Merchant": 2},
+		"color": [197, 142, 10]
+	}
+]

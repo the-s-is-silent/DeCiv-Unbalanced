@@ -197,7 +197,8 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"food": 2,
 		"gold": 2,
-		"uniques": ["Great Improvement",
+		"uniques": [
+			"Great Improvement",
 			"Gives a defensive bonus of [10]%",
 			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
@@ -209,7 +210,41 @@
 			"[+1 Production, +1 Gold] <after discovering [Incentivization]>",
 			"[+2 Gold] <after discovering [Globalization]>",
 			"Removes removable features when built",
-			"Pillaging this improvement yields approximately [+20 Gold]"]
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		]
+	},
+	{
+		"name": "Banana Business Area",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"gold": 4,
+		"food": 1,
+		"uniques": [
+			"Food source",
+			"Great Improvement",
+			"[+1 Food, +1 Gold] <with [1] to [3] neighboring [Jungle Replanting Zone] tiles>",
+			"[+2 Food, +2 Gold] <with [4] to [6] neighboring [Jungle Replanting Zone] tiles>",
+			"[+2 Gold] <after discovering [Plastics]>",
+			"Gives a defensive bonus of [10]%",
+			"Pillaging this improvement yields approximately [+30 Gold]",
+			"Provides [1] [Bananas]"
+		]
+	},
+	{
+		"name": "Memorial Site",
+		"culture": 3,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Great Improvement",
+			"[+1 Culture] <after discovering [Mining]>",
+			"[+1 Culture] <after discovering [Currency]>",
+			"[+2 Culture] <after discovering [Railroads]>",
+			"[+1 Culture, +1 Happiness] <after discovering [Flight]>",
+			"[+1 Culture] <after discovering [Incentivization]>",
+			"[+1 Culture] <after discovering [Globalization]>",
+			"Can be built just outside your borders",
+			"Gives a defensive bonus of [10]%",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		]
 	},
 	{
 		"name": "Preservator",
@@ -238,6 +273,14 @@
 			"Provides [1] [Machine Parts] <in [{Jungle} {Permafrost}] tiles>",
 			"Provides [1] [Aluminum] <in [{Featureless} {Permafrost}] tiles>",
 			"Provides [1] [Oil] <in [{Featureless} {Tundra}] tiles>",
+			"Improves [Scrap] resource in this tile",
+			"Improves [Plastics] resource in this tile",
+			"Improves [Artifacts] resource in this tile",
+			"Improves [Books] resource in this tile",
+			"Improves [Data] resource in this tile",
+			"Improves [Encrypted Data] resource in this tile",
+			"Improves [Electronics] resource in this tile",
+			"Improves [Machine Parts] resource in this tile",
 			"Cannot be built on [Water] tiles",
 			"Cannot be built on [Coal] tiles",
 			"Cannot be built on [Oil] tiles",

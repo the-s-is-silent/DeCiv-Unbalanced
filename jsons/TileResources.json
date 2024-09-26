@@ -1,5 +1,14 @@
 [
 	{
+		"name": "Bananas",
+		"resourceType": "Luxury",
+		"gold": 1,
+		"food": 1,
+		"uniques": [
+			"[+5]% [Food] [in all cities]"
+		]
+	},
+	{
 		"name": "Refined Experimental Chemicals",
 		"resourceType": "Luxury"
 	}

@@ -1,6 +1,6 @@
 [
 	{
-		"name": "Monument to Yairm's Folly",
+		"name": "Monument to Yair's Folly",
 		"isNationalWonder": true,
 		"production": 5,
 		"gold": 5,
@@ -13,6 +13,7 @@
 			"Quantity of strategic resources produced by the empire +[200]%",
 			"[-90]% construction time for [All] improvements",
 			"[-90]% Gold cost of acquiring tiles [in all cities]",
+			"[-90]% Gold cost of upgrading <for [All] units>",
 			"[2] free [Civilian Convoy] units appear",
 			"[+5] Movement <for [Civilian Convoy] units>",
 			"[Civilian] units gain the [Reconnaissance I] promotion",
@@ -36,7 +37,7 @@
 		"cost": 0,
 		"uniques": ["[+4] population [in this city]",
 			"[+1 Food] from [Food source] tiles [in this city]",
-			"Only available <if [Monument to Yairm's Folly] is constructed>",
+			"Only available <if [Monument to Yair's Folly] is constructed>",
 			"Unsellable",
 			"Destroyed when the city is captured",
 			"Will not be displayed in Civilopedia"]
@@ -46,7 +47,7 @@
 		"production": 50,
 		"specialistSlots": {"Engineer": 5},
 		"cost": 0,
-		"uniques": ["Only available <if [Monument to Yairm's Folly] is constructed>",
+		"uniques": ["Only available <if [Monument to Yair's Folly] is constructed>",
 			"Destroyed when the city is captured",
 			"Will not be displayed in Civilopedia"]
 	},
@@ -55,7 +56,7 @@
 		"gold": 50,
 		"specialistSlots": {"Merchant": 5},
 		"cost": 0,
-		"uniques": ["Only available <if [Monument to Yairm's Folly] is constructed>",
+		"uniques": ["Only available <if [Monument to Yair's Folly] is constructed>",
 			"Destroyed when the city is captured",
 			"Will not be displayed in Civilopedia"]
 	},
@@ -64,7 +65,7 @@
 		"science": 50,
 		"specialistSlots": {"Scientist": 5},
 		"cost": 0,
-		"uniques": ["Only available <if [Monument to Yairm's Folly] is constructed>",
+		"uniques": ["Only available <if [Monument to Yair's Folly] is constructed>",
 			"Destroyed when the city is captured",
 			"Will not be displayed in Civilopedia"]
 	},
@@ -73,7 +74,7 @@
 		"culture": 50,
 		"specialistSlots": {"Administrator": 5},
 		"cost": 0,
-		"uniques": ["Only available <if [Monument to Yairm's Folly] is constructed>",
+		"uniques": ["Only available <if [Monument to Yair's Folly] is constructed>",
 			"Destroyed when the city is captured",
 			"Will not be displayed in Civilopedia"]
 	},
@@ -81,7 +82,7 @@
 		"name": "Easy Evangelism",
 		"faith": 50,
 		"cost": 0,
-		"uniques": ["Only available <if [Monument to Yairm's Folly] is constructed>",
+		"uniques": ["Only available <if [Monument to Yair's Folly] is constructed>",
 			"Destroyed when the city is captured",
 			"Will not be displayed in Civilopedia"]
 	},
@@ -90,7 +91,7 @@
 		"happiness": 5,
 		"cost": 0,
 		"uniques": ["[+1 Happiness] per [5] population [in this city]",
-			"Only available <if [Monument to Yairm's Folly] is constructed>",
+			"Only available <if [Monument to Yair's Folly] is constructed>",
 			"Destroyed when the city is captured",
 			"Will not be displayed in Civilopedia"]
 	},
@@ -100,7 +101,7 @@
 		"replacementTextForUniques": "Converts 1 unit of population in this city to 5 units of slave labor. Cannot be built by factions that outlaw slavery. Cannot be purchased or sold, and will be destroyed if the city is lost.",
 		"uniques": ["[-1] population [in this city]",
 			"Provides [5] [Slaves]",
-			"Only available <if [Monument to Yairm's Folly] is constructed>",
+			"Only available <if [Monument to Yair's Folly] is constructed>",
 			"Unbuildable <for [Cannot build [Enslaved] units]>",
 			"Cannot be purchased",
 			"Unsellable",
@@ -114,7 +115,40 @@
 		"cost": 0,
 		"uniques": ["Provides [5] [Weapons]",
 			"New [Military] units start with [5000] Experience [in this city]",
-			"Only available <if [Monument to Yairm's Folly] is constructed>",
+			"Only available <if [Monument to Yair's Folly] is constructed>",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Absurdly Massive Archive",
+		"uniqueTo": "TCC",
+		"science": 30,
+		"culture": 30,
+		"specialistSlots": {"Archivar": 5},
+		"cost": 0,
+		"uniques": ["Only available <if [Monument to Yair's Folly] is constructed>",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Secret Combinations",
+		"uniqueTo": "TCC",
+		"faith": 30,
+		"production": 30,
+		"specialistSlots": {"Politician": 5},
+		"cost": 0,
+		"uniques": ["Only available <if [Monument to Yair's Folly] is constructed>",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Corporate Office",
+		"uniqueTo": "TCC",
+		"gold": 30,
+		"food": 30,
+		"specialistSlots": {"Entrepreneur": 5},
+		"cost": 0,
+		"uniques": ["Only available <if [Monument to Yair's Folly] is constructed>",
 			"Destroyed when the city is captured",
 			"Will not be displayed in Civilopedia"]
 	}

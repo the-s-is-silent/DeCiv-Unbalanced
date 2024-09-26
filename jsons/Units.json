@@ -3,17 +3,21 @@
 	{
 		"name": "Great Administrator",
 		"unitType": "Civilian",
-		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>",
+		"uniques": [
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
 			"Can instantly construct a [Settlement] improvement <[2] times> <after which this unit is consumed>",
 			"Is part of Great Person group [Admin]",
 			"Great Person - [Culture]",
-			"Unbuildable", "Uncapturable"],
+			"Unbuildable",
+			"Uncapturable"
+		],
 		"movement": 2
 	},
 	{
 		"name": "Great Sage",
 		"unitType": "Civilian",
-		"uniques": ["Can instantly construct a [Seminary] improvement <[2] times> <after which this unit is consumed>",
+		"uniques": [
+			"Can instantly construct a [Seminary] improvement <[2] times> <after which this unit is consumed>",
 			"Can Spread Religion <for [2] movement> <[4] times> <after which this unit is consumed>",
 			"Removes other religions when spreading religion",
 			"May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
@@ -24,7 +28,8 @@
 			"Unbuildable", "Uncapturable",
 			"Religious Unit",
 			"Hidden when religion is disabled",
-			"Takes your religion over the one in their birth city"],
+			"Takes your religion over the one in their birth city"
+		],
 		"movement": 2,
 		"religiousStrength": 1000
 	},
@@ -33,7 +38,8 @@
 		"uniqueTo": "Cult of Ignis",
 		"replaces": "Great Sage",
 		"unitType": "Civilian",
-		"uniques": ["Can instantly construct a [Oracle] improvement <[2] times> <after which this unit is consumed>",
+		"uniques": [
+			"Can instantly construct a [Oracle] improvement <[2] times> <after which this unit is consumed>",
 			"Can Spread Religion <for [2] movement> <[4] times> <after which this unit is consumed>",
 			"Removes other religions when spreading religion",
 			"May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
@@ -41,31 +47,39 @@
 			"May enter foreign tiles without open borders",
 			"[-1] Sight",
 			"Great Person - [Faith]",
-			"Unbuildable", "Uncapturable",
+			"Unbuildable",
+			"Uncapturable",
 			"Religious Unit",
 			"Hidden when religion is disabled",
-			"Takes your religion over the one in their birth city"],
+			"Takes your religion over the one in their birth city"
+		],
 		"movement": 2,
 		"religiousStrength": 1000
 	},
 	{
 		"name": "Great Scientist",
 		"unitType": "Civilian",
-		"uniques": ["Can hurry technology research",
+		"uniques": [
+			"Can hurry technology research",
 			"Can instantly construct a [Academy] improvement <[2] times> <after which this unit is consumed>",
 			"Is part of Great Person group [Scientist]",
 			"Great Person - [Science]",
-			"Unbuildable", "Uncapturable"],
+			"Unbuildable",
+			"Uncapturable"
+		],
 		"movement": 2
 	},
 	{
 		"name": "Great Merchant",
 		"unitType": "Civilian",
-		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+		"uniques": [
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
 			"Can instantly construct a [Supply Complex] improvement <[2] times> <after which this unit is consumed>",
 			"Is part of Great Person group [Merchant]",
 			"Great Person - [Gold]",
-			"Unbuildable", "Uncapturable"],
+			"Unbuildable",
+			"Uncapturable"
+		],
 		"movement": 2
 	},
 	{
@@ -73,13 +87,16 @@
 		"uniqueTo": "Deadrock Clan",
 		"replaces": "Great Merchant",
 		"unitType": "Civilian",
-		"uniques": ["Invisible to non-adjacent units",
+		"uniques": [
+			"Invisible to non-adjacent units",
 			"May enter foreign tiles without open borders",
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [40] Influence",
 			"Can instantly construct a [Narcotics farm] improvement <[2] times> <after which this unit is consumed>",
 			"Is part of Great Person group [Merchant]",
 			"Great Person - [Gold]",
-			"Unbuildable", "Uncapturable"],
+			"Unbuildable",
+			"Uncapturable"
+		],
 		"movement": 2
 	},
 	{
@@ -87,32 +104,41 @@
 		"uniqueTo": "Crimson Legion",
 		"replaces": "Great Merchant",
 		"unitType": "Civilian",
-		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+		"uniques": [
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
 			"Can instantly construct a [Prison farm] improvement <[2] times> <after which this unit is consumed>",
 			"Is part of Great Person group [Merchant]",
 			"Great Person - [Gold]",
-			"Unbuildable", "Uncapturable"],
+			"Unbuildable",
+			"Uncapturable"
+		],
 		"movement": 2
 	},
 	{
 		"name": "Great Engineer",
 		"unitType": "Civilian",
-		"uniques": ["Can speed up construction of a building",
+		"uniques": [
+			"Can speed up construction of a building",
 			"Can instantly construct a [Manufactory] improvement <[2] times> <after which this unit is consumed>",
 			"Is part of Great Person group [Engineer]",
 			"Great Person - [Production]",
-			"Unbuildable", "Uncapturable"],
+			"Unbuildable",
+			"Uncapturable"
+		],
 		"movement": 2
 	},
 	{
 		"name": "Great General",
 		"unitType": "Civilian",
-		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>",
+		"uniques": [
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"Can instantly construct a [Citadel] improvement <[2] times> <after which this unit is consumed>",
 			"Can be earned through combat",
 			"Great Person - [War]",
-			"Unbuildable", "Uncapturable"],
+			"Unbuildable",
+			"Uncapturable"
+		],
 		"movement": 2
 	},
 	{
@@ -120,12 +146,15 @@
 		"replaces": "Great General",
 		"uniqueTo": "Hexlock",
 		"unitType": "Civilian",
-		"uniques": ["[+15]% Strength bonus for [Military] units within [2] tiles",
+		"uniques": [
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"Can hurry technology research",
 			"Can instantly construct a [Crystal Refinery] improvement <[2] times> <after which this unit is consumed>",
 			"Can be earned through combat",
 			"Great Person - [War]",
-			"Unbuildable", "Uncapturable"],
+			"Unbuildable",
+			"Uncapturable"
+		],
 		"movement": 2
 	},
 	{
@@ -155,13 +184,16 @@
 		"uniqueTo": "Deadrock Clan",
 		"replaces": "Great General",
 		"unitType": "Civilian",
-		"uniques": ["Can build [Land] improvements on tiles",
+		"uniques": [
+			"Can build [Land] improvements on tiles",
 			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"Can instantly construct a [Prison farm] improvement <[2] times> <after which this unit is consumed>",
 			"Can be earned through combat",
 			"Great Person - [War]",
-			"Unbuildable", "Uncapturable"],
+			"Unbuildable",
+			"Uncapturable"
+		],
 		"movement": 2
 	},
 	{
@@ -169,14 +201,17 @@
 		"uniqueTo": "Cult of Ignis",
 		"replaces": "Great General",
 		"unitType": "Civilian",
-		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>",
+		"uniques": [
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"All adjacent units heal [+15] HP when healing",
 			"[+15] HP when healing",
 			"Can instantly construct a [Outpost] improvement <[2] times> <after which this unit is consumed>",
 			"Can be earned through combat",
 			"Great Person - [War]",
-			"Uncapturable", "Unbuildable"],
+			"Uncapturable",
+			"Unbuildable"
+		],
 		"movement": 5
 	},
 	{
@@ -184,68 +219,274 @@
 		"uniqueTo": "Proklyatyye",
 		"replaces": "Great General",
 		"unitType": "Civilian",
-		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>",
+		"uniques": [
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"[-15]% Strength for enemy [Military] units in adjacent [All] tiles",
 			"Can instantly construct a [Citadel] improvement <[2] times> <after which this unit is consumed>",
 			"Can be earned through combat",
 			"Great Person - [War]",
-			"Uncapturable", "Unbuildable"],
+			"Uncapturable",
+			"Unbuildable"
+		],
 		"promotions": ["Gas Mask", "Radioactive"],
 		"movement": 2
 	},
 	{
+		"name": "Khan",
+		"unitType": "Mounted",
+		"uniqueTo": "The Hunnu",
+		"replaces": "Great General",
+		"upgradesTo": "Hussar",
+		"movement": 4,
+		"strength": 20,
+		"cost": 500,
+		"uniques": [
+			"Low Tech",
+			"[+50]% Strength <vs [Low Tech] units>",
+			"[-25]% Strength <vs cities> <when attacking>",
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"Great Person - [War]",
+			"Can be earned through combat",
+			"Unbuildable"
+		],
+		"promotions": ["[Khan] ability"],
+		"attackSound": "horse"
+	},
+	{
 		"name": "Great Farmer",
 		"unitType": "Civilian",
-		"uniques": ["[+1] population [in all cities] <by consuming this unit>",
+		"uniques": [
+			"[+1] population [in all cities] <by consuming this unit>",
 			"Can instantly construct a [Factory farm] improvement <[2] times> <after which this unit is consumed>",
 			"Is part of Great Person group [Farmer]",
 			"Great Person - [Food]",
-			"Uncapturable", "Unbuildable"],
+			"Uncapturable",
+			"Unbuildable"
+		],
 		"movement": 2
 	},
 
-	//Expansion mod support (Lights, Camera, Destruction; Naciones pa Deciv ES; Outlaws of the Wastes)
+	//Expansion mod support
 	{
 		"name": "Opinionspeople",
 		"replaces": "Great General",
 		"uniqueTo": "Reactorland",
 		"unitType": "Civilian",
-		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>",
+		"uniques": [
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"Can instantly construct a [Academy] improvement <[2] times> <after which this unit is consumed>",
 			"Can instantly construct a [Settlement] improvement <[2] times> <after which this unit is consumed>",
 			"Can be earned through combat",
 			"Great Person - [War]",
-			"Unbuildable", "Uncapturable"],
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Commissioner",
+		"unitType": "Civilian",
+		"uniqueTo": "Last Patrol",
+		"replaces": "Great General",
+		"uniques": [
+			"Empire enters a [6]-turn Golden Age <by consuming this unit>",
+			"[+20]% Strength bonus for [Military] units within [2] tiles",
+			"Can instantly construct a [Citadel] improvement <[2] times> <after which this unit is consumed>",
+			"Great Person - [War]",
+			"Can be earned through combat",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Counter - Food",
+		"uniqueTo": "TCC",
+		"replaces": "Great Farmer",
+		"unitType": "Civilian",
+		"uniques": [
+			"Empire enters a [12]-turn Golden Age <by consuming this unit>",
+			"Can instantly construct a [Settlement] improvement <[2] times> <after which this unit is consumed>",
+			"Can instantly construct a [Factory farm] improvement <[2] times> <after which this unit is consumed>",
+			"Is part of Great Person group [Farmer]",
+			"Great Person - [Food]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Sectleader",
+		"uniqueTo": "TCC",
+		"replaces": "Great Sage",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can instantly construct a [Seminary] improvement <[2] times> <after which this unit is consumed>",
+			"Can Spread Religion <for [2] movement> <[4] times> <after which this unit is consumed>",
+			"Removes other religions when spreading religion",
+			"May found a religion",
+			"May enhance a religion",
+			"May enter foreign tiles without open borders",
+			"When spreading religion to a city, gain [3] times the amount of followers of other religions as [Culture]",
+			"Can remove other religions from cities <in [Friendly] tiles> <for [2] movement> <once>",
+			"[-1] Sight",
+			"Great Person - [Faith]",
+			"Unbuildable",
+			"Uncapturable",
+			"Religious Unit",
+			"Hidden when religion is disabled",
+			"Takes your religion over the one in their birth city"
+		],
+		"movement": 2,
+		"religiousStrength": 1000
+	},
+	{
+		"name": "Counter - History",
+		"uniqueTo": "TCC",
+		"replaces": "Great Scientist",
+		"unitType": "Civilian",
+		"uniques": [
+			"Empire enters a [12]-turn Golden Age <by consuming this unit>",
+			"Can instantly construct a [Preservator] improvement <[2] times> <after which this unit is consumed>",
+			"Can instantly construct a [Academy] improvement <[2] times> <after which this unit is consumed> <starting from the [Neofeudal era]>",
+			"Is part of Great Person group [Scientist]",
+			"Great Person - [History]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Counter - Economy",
+		"uniqueTo": "TCC",
+		"replaces": "Great Merchant",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence",
+			"Can hurry technology research",
+			"Can speed up the construction of a wonder",
+			"Is part of Great Person group [Merchant]",
+			"Great Person - [Economy]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Counter - Industry",
+		"uniqueTo": "TCC",
+		"replaces": "Great Engineer",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can instantly construct a [Manufactory] improvement <[2] times> <after which this unit is consumed> <if it hasn't used other actions yet>",
+			"Can instantly construct a [Citadel] improvement <[2] times> <after which this unit is consumed>",
+			"Is part of Great Person group [Engineer]",
+			"Great Person - [Industry]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Counter - Arts",
+		"replaces": "Great Administrator",
+		"uniqueTo": "TCC",
+		"unitType": "Civilian",
+		"uniques": [
+			"Empire enters a [12]-turn Golden Age <by consuming this unit>",
+			"Can instantly construct a [Memorial Site] improvement <[2] times> <after which this unit is consumed>",
+			"Is part of Great Person group [Admin]",
+			"Great Person - [Arts]",
+			"Unbuildable",
+			"Uncapturable"
+		],
 		"movement": 2
 	},
 	{
 		"name": "Blessed General",
 		"unitType": "Civilian",
 		"replaces": "Great General",
-		"uniqueTo": "The Unified Barbarians",
-		"uniques": ["[+15]% Strength bonus for [Military] units within [2] tiles",
+		"uniqueTo": "Raider Kingdom",
+		"uniques": [
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"Can see over obstacles",
 			"Ignores terrain cost",
 			"Can instantly construct a [Citadel] improvement <[2] times> <after which this unit is consumed>",
 			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
 			"Can be earned through combat",
 			"Great Person - [War]",
-			"Unbuildable", "Uncapturable"],
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Coordinator Unit",
+		"unitType": "Civilian",
+		"replaces": "Great General",
+		"uniqueTo": "Gestalt",
+		"uniques": [
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"[+5]% Strength bonus for [Military] units within [2] tiles <when adjacent to a [Coordinator Unit] unit>",
+			"Can instantly construct a [Citadel] improvement <[2] times> <after which this unit is consumed>",
+			"Great Person - [War]",
+			"Can be earned through combat",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Menagerie Merchant",
+		"unitType": "Civilian",
+		"replaces": "Great Merchant",
+		"uniqueTo": "The Menagerie",
+		"uniques": [
+			"Gain [100]-[1000] [Gold] <in [City-States] tiles> <[3] times> <after which this unit is consumed>",
+			"Can instantly construct a [Settlement] improvement <[2] times> <after which this unit is consumed>",
+			"Is part of Great Person group [Merchant]",
+			"Great Person - [Gold]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Great Submarine Commander",
+		"unitType": "Civilian",
+		"replaces": "Great Admiral",
+		"uniqueTo": "Charybdis Division",
+		"uniques": [
+			"Can instantly construct a [Drydock] improvement <[2] times> <after which this unit is consumed>",
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"[+15]% Strength bonus for [Water] units within [2] tiles",
+			"[+15]% Strength bonus for [Submarine] units within [2] tiles",
+			"Is part of Great Person group [Admiral]",
+			"Great Person - [Navy]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"promotions": ["Oceanic Mutation"],
 		"movement": 2
 	},
 	{
 		"name": "Great Admiral",
 		"unitType": "Civilian Water",
-		"uniques": ["Can instantly construct a [Drydock] improvement <[2] times> <after which this unit is consumed>",
+		"uniques": [
+			"Can instantly construct a [Drydock] improvement <[2] times> <after which this unit is consumed>",
 			"[+15]% Strength bonus for [{Military} {Water}] units within [2] tiles",
 			"May heal outside of friendly territory",
 			"[+15] HP when healing",
 			"All adjacent units heal [+15] HP when healing",
 			"Is part of Great Person group [Admiral]",
 			"Great Person - [Navy]",
-			"Unbuildable", "Uncapturable"],
+			"Unbuildable",
+			"Uncapturable"
+		],
 		//Repair Fleet ability is currently unimplemented
 		"movement": 6
 	},
@@ -254,12 +495,15 @@
 		"replaces": "Great General",
 		"uniqueTo": "Crimson Legion",
 		"unitType": "Civilian",
-		"uniques": ["Can instantly construct a [Outpost] improvement <[2] times> <after which this unit is consumed>",
+		"uniques": [
+			"Can instantly construct a [Outpost] improvement <[2] times> <after which this unit is consumed>",
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [45] Influence",
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"Can be earned through combat",
 			"Great Person - [War]",
-			"Unbuildable", "Uncapturable"],
+			"Unbuildable",
+			"Uncapturable"
+		],
 		"movement": 2
 	},
 	{
@@ -267,7 +511,8 @@
 		"uniqueTo": "Deseret2",
 		"replaces": "Great Sage",
 		"unitType": "Civilian",
-		"uniques": ["Can instantly construct a [Endowment House] improvement <[2] times> <after which this unit is consumed>",
+		"uniques": [
+			"Can instantly construct a [Endowment House] improvement <[2] times> <after which this unit is consumed>",
 			"Can Spread Religion <for [2] movement> <[4] times> <after which this unit is consumed>",
 			"Removes other religions when spreading religion",
 			"May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
@@ -277,7 +522,8 @@
 			"Unbuildable", "Uncapturable",
 			"Religious Unit",
 			"Hidden when religion is disabled",
-			"Takes your religion over the one in their birth city"],
+			"Takes your religion over the one in their birth city"
+		],
 		"movement": 2,
 		"religiousStrength": 1000
 	},
@@ -288,23 +534,47 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 200,
-		"uniques": ["Mounted",
+		"uniques": [
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [10] Influence",
 			"Can instantly construct a [Wasteland Station] improvement <[2] times> <after which this unit is consumed>",
 			"Is part of Great Person group [Merchant]",
 			"Great Person - [Gold]",
-			"Only available <if [Harbinger Manege] is constructed>",
 			"Only available <in cities with a [Contract with Survivors]>",
 			"Requires at least [5] population",
-			"Cannot be purchased <before the [Industrial era]>"]
+			"Cannot be purchased <before the [Industrial era]>"
+		]
+	},
+	{
+		"name": "Continental General",
+		"unitType": "Shooter",
+		"uniqueTo": "The Oathsworn",
+		"replaces": "Great General",
+		"range": 1,
+		"movement": 2,
+		"strength": 40,
+		"cost": 500,
+		"rangedStrength": 35,
+		"interceptRange": 1,
+		"uniques": [
+			"Personnel",
+			"Can be earned through combat",
+			"Great Person - [War]",
+			"Unbuildable",
+			"Consumes [1] [Weapons]"
+		],
+		"promotions": ["Reconnaissance I", "Gas Mask", "Homeland Guardian", "Great Generals", "[Continental General] ability"],
+		"attackSound": "shot"
 	},
 	{
 		"name": "Persevering Pax Researcher",
 		"uniqueTo": "The Pax",
 		"unitType": "Civilian",
-		"uniques": ["Withdraws before melee combat <with [100]% chance>",
+		"uniques": [
+			"Withdraws before melee combat <with [100]% chance>",
 			"Can instantly construct a [Preservator] improvement <[2] times> <after which this unit is consumed>",
-			"Unbuildable", "Uncapturable"],
+			"Unbuildable",
+			"Uncapturable"
+		],
 		"movement": 2
 	}
 ]
