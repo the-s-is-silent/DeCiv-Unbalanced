@@ -27,7 +27,7 @@
 			"Great Person - [Faith]",
 			"Unbuildable", "Uncapturable",
 			"Religious Unit",
-			"Hidden when religion is disabled",
+			"Only available <when religion is enabled>",
 			"Takes your religion over the one in their birth city"
 		],
 		"movement": 2,
@@ -50,7 +50,7 @@
 			"Unbuildable",
 			"Uncapturable",
 			"Religious Unit",
-			"Hidden when religion is disabled",
+			"Only available <when religion is enabled>",
 			"Takes your religion over the one in their birth city"
 		],
 		"movement": 2,
@@ -337,7 +337,7 @@
 			"Unbuildable",
 			"Uncapturable",
 			"Religious Unit",
-			"Hidden when religion is disabled",
+			"Only available <when religion is enabled>",
 			"Takes your religion over the one in their birth city"
 		],
 		"movement": 2,
@@ -507,6 +507,22 @@
 		"movement": 2
 	},
 	{
+		"name": "Eagle Speaker",
+		"unitType": "Civilian",
+		"uniqueTo": "Aztlán",
+		"replaces": "Great General",
+		"uniques": [
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
+			"[+15]% Strength bonus for [Military] units within [3] tiles",
+			"Can instantly construct a [Citadel] improvement <[2] times> <after which this unit is consumed>",
+			"Can instantly construct a [Survivor camp] improvement <[2] times]> <in tiles adjacent to [City ruins] tiles> <for [2] movement>",
+			"Can be earned through combat",
+			"Great Person - [War]", 
+			"Unbuildable", "Uncapturable"
+		],
+		"movement": 2
+	},
+	{
 		"name": "Living Prophet",
 		"uniqueTo": "Deseret2",
 		"replaces": "Great Sage",
@@ -528,11 +544,11 @@
 		"religiousStrength": 1000
 	},
 	{
-		"name": "Great Caravan",
+		"name": "Siberian Convoy",
 		"uniqueTo": "The Harbingers",
 		"replaces": "Great Merchant",
 		"unitType": "Civilian",
-		"movement": 2,
+		"movement": 3,
 		"cost": 200,
 		"uniques": [
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [10] Influence",

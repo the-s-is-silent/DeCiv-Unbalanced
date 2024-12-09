@@ -9,7 +9,8 @@
 		"faith": 5,
 		"happiness": 5,
 		"cost": 0,
-		"uniques": ["Reveals the entire map",
+		"uniques": [
+			"Reveals the entire map",
 			"Quantity of strategic resources produced by the empire +[200]%",
 			"[-90]% construction time for [All] improvements",
 			"[-90]% Gold cost of acquiring tiles [in all cities]",
@@ -27,7 +28,8 @@
 			"May buy [Great Scientist] units for [100] [Faith] [in all cities] at an increasing price ([50])",
 			"Triggers a global alert upon completion",
 			"Can only be built <in [Capital] cities>",
-			"Only available <after adopting [Centralization]>"]
+			"Only available <after adopting [Centralization]>"
+		]
 	},
 	{
 		"name": "Population Boost",
@@ -35,89 +37,107 @@
 		"happiness": 4,
 		"specialistSlots": {"Farmer": 5},
 		"cost": 0,
-		"uniques": ["[+4] population [in this city]",
+		"uniques": [
+			"[+4] population [in this city]",
 			"[+1 Food] from [Food source] tiles [in this city]",
 			"Only available <if [Monument to Yair's Folly] is constructed>",
 			"Unsellable",
 			"Destroyed when the city is captured",
-			"Will not be displayed in Civilopedia"]
+			"Will not be displayed in Civilopedia"
+		]
 	},
 	{
 		"name": "Productivity Boost",
 		"production": 50,
 		"specialistSlots": {"Engineer": 5},
 		"cost": 0,
-		"uniques": ["Only available <if [Monument to Yair's Folly] is constructed>",
+		"uniques": [
+			"Only available <if [Monument to Yair's Folly] is constructed>",
 			"Destroyed when the city is captured",
-			"Will not be displayed in Civilopedia"]
+			"Will not be displayed in Civilopedia"
+		]
 	},
 	{
 		"name": "Overflowing Pure Water Reservoir",
 		"gold": 50,
 		"specialistSlots": {"Merchant": 5},
 		"cost": 0,
-		"uniques": ["Only available <if [Monument to Yair's Folly] is constructed>",
+		"uniques": [
+			"Only available <if [Monument to Yair's Folly] is constructed>",
 			"Destroyed when the city is captured",
-			"Will not be displayed in Civilopedia"]
+			"Will not be displayed in Civilopedia"
+		]
 	},
 	{
 		"name": "Research Boost",
 		"science": 50,
 		"specialistSlots": {"Scientist": 5},
 		"cost": 0,
-		"uniques": ["Only available <if [Monument to Yair's Folly] is constructed>",
+		"uniques": [
+			"Only available <if [Monument to Yair's Folly] is constructed>",
 			"Destroyed when the city is captured",
-			"Will not be displayed in Civilopedia"]
+			"Will not be displayed in Civilopedia"
+		]
 	},
 	{
 		"name": "Culture Boost",
 		"culture": 50,
 		"specialistSlots": {"Administrator": 5},
 		"cost": 0,
-		"uniques": ["Only available <if [Monument to Yair's Folly] is constructed>",
+		"uniques": [
+			"Only available <if [Monument to Yair's Folly] is constructed>",
 			"Destroyed when the city is captured",
-			"Will not be displayed in Civilopedia"]
+			"Will not be displayed in Civilopedia"
+		]
 	},
 	{
 		"name": "Easy Evangelism",
 		"faith": 50,
 		"cost": 0,
-		"uniques": ["Only available <if [Monument to Yair's Folly] is constructed>",
+		"uniques": [
+			"Only available <if [Monument to Yair's Folly] is constructed>",
 			"Destroyed when the city is captured",
-			"Will not be displayed in Civilopedia"]
+			"Will not be displayed in Civilopedia"
+		]
 	},
 	{
 		"name": "Hedonist's Sanctuary",
 		"happiness": 5,
 		"cost": 0,
-		"uniques": ["[+1 Happiness] per [5] population [in this city]",
+		"uniques": [
+			"[+1 Happiness] per [5] population [in this city]",
 			"Only available <if [Monument to Yair's Folly] is constructed>",
 			"Destroyed when the city is captured",
-			"Will not be displayed in Civilopedia"]
+			"Will not be displayed in Civilopedia"
+		]
 	},
 	{
 		"name": "Internment Camp",
 		"cost": 0,
 		"replacementTextForUniques": "Converts 1 unit of population in this city to 5 units of slave labor. Cannot be built by factions that outlaw slavery. Cannot be purchased or sold, and will be destroyed if the city is lost.",
-		"uniques": ["[-1] population [in this city]",
+		"uniques": [
+			"[-1] population [in this city]",
 			"Provides [5] [Slaves]",
 			"Only available <if [Monument to Yair's Folly] is constructed>",
-			"Unbuildable <for [Cannot build [Enslaved] units]>",
+			"Unbuildable <for [Cannot build [Enslaved] units] Civilizations>",
 			"Cannot be purchased",
 			"Unsellable",
 			"Destroyed when the city is captured",
-			"Will not be displayed in Civilopedia"]
+			"Will not be displayed in Civilopedia"
+		]
 	},
 	{
 		"name": "Great Redoubt",
 		"cityStrength": 50,
 		"cityHealth": 500,
 		"cost": 0,
-		"uniques": ["Provides [5] [Weapons]",
+		"uniques": [
+			"Provides [5] [Weapons]",
 			"New [Military] units start with [5000] Experience [in this city]",
 			"Only available <if [Monument to Yair's Folly] is constructed>",
 			"Destroyed when the city is captured",
-			"Will not be displayed in Civilopedia"]
+			"Will not be displayed in Civilopedia"
+		]
 	},
 	{
 		"name": "Absurdly Massive Archive",
@@ -126,9 +146,11 @@
 		"culture": 30,
 		"specialistSlots": {"Archivar": 5},
 		"cost": 0,
-		"uniques": ["Only available <if [Monument to Yair's Folly] is constructed>",
+		"uniques": [
+			"Only available <if [Monument to Yair's Folly] is constructed>",
 			"Destroyed when the city is captured",
-			"Will not be displayed in Civilopedia"]
+			"Will not be displayed in Civilopedia"
+		]
 	},
 	{
 		"name": "Secret Combinations",
@@ -137,9 +159,11 @@
 		"production": 30,
 		"specialistSlots": {"Politician": 5},
 		"cost": 0,
-		"uniques": ["Only available <if [Monument to Yair's Folly] is constructed>",
+		"uniques": [
+			"Only available <if [Monument to Yair's Folly] is constructed>",
 			"Destroyed when the city is captured",
-			"Will not be displayed in Civilopedia"]
+			"Will not be displayed in Civilopedia"
+		]
 	},
 	{
 		"name": "Corporate Office",
@@ -148,8 +172,10 @@
 		"food": 30,
 		"specialistSlots": {"Entrepreneur": 5},
 		"cost": 0,
-		"uniques": ["Only available <if [Monument to Yair's Folly] is constructed>",
+		"uniques": [
+			"Only available <if [Monument to Yair's Folly] is constructed>",
 			"Destroyed when the city is captured",
-			"Will not be displayed in Civilopedia"]
+			"Will not be displayed in Civilopedia"
+		]
 	}
 ]
