@@ -515,7 +515,7 @@
 			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
 			"[+15]% Strength bonus for [Military] units within [3] tiles",
 			"Can instantly construct a [Citadel] improvement <[2] times> <after which this unit is consumed>",
-			"Can instantly construct a [Survivor camp] improvement <[2] times]> <in tiles adjacent to [City ruins] tiles> <for [2] movement>",
+			"Can instantly construct a [Survivor camp] improvement <[2] times> <in tiles adjacent to [City ruins] tiles> <for [2] movement>",
 			"Can be earned through combat",
 			"Great Person - [War]", 
 			"Unbuildable", "Uncapturable"
@@ -537,7 +537,7 @@
 			"Great Person - [Faith]",
 			"Unbuildable", "Uncapturable",
 			"Religious Unit",
-			"Hidden when religion is disabled",
+			"Only available <when religion is enabled>",
 			"Takes your religion over the one in their birth city"
 		],
 		"movement": 2,
@@ -578,8 +578,38 @@
 			"Unbuildable",
 			"Consumes [1] [Weapons]"
 		],
-		"promotions": ["Reconnaissance I", "Gas Mask", "Homeland Guardian", "Great Generals", "[Continental General] ability"],
+		"promotions": [
+			"Reconnaissance I", 
+			"Gas Mask",
+			"Homeland Guardian",
+			"Golden Age from Victories",
+			"Great Generals",
+			"[Continental General] ability"
+		],
 		"attackSound": "shot"
+	},
+	{
+		"name": "Emissary of the Anti-Father",
+		"uniqueTo": "Celestial Collective",
+		"replaces": "Great Sage",
+		"unitType": "Civilian",
+		"uniques": [
+			"[+20]% Strength bonus for [Military] units within [2] tiles",
+			"Can instantly construct a [Citadel] improvement <[2] times> <after which this unit is consumed> <if it hasn't used other actions yet>",
+			"Can Spread Religion <for [2] movement> <[4] times> <after which this unit is consumed>",
+			"Removes other religions when spreading religion",
+			"May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
+			"May enhance a religion <by consuming this unit> <if it hasn't used other actions yet>",
+			"May enter foreign tiles without open borders",
+			"Great Person - [Faith]",
+			"Unbuildable",
+			"Uncapturable",
+			"Religious Unit",
+			"Only available <when religion is enabled>",
+			"Takes your religion over the one in their birth city"
+		],
+		"movement": 2,
+		"religiousStrength": 1000
 	},
 	{
 		"name": "Persevering Pax Researcher",

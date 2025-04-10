@@ -133,7 +133,7 @@
 		"cost": 0,
 		"uniques": [
 			"Provides [5] [Weapons]",
-			"New [Military] units start with [5000] Experience [in this city]",
+			"New [Military] units start with [5000] XP [in this city]",
 			"Only available <if [Monument to Yair's Folly] is constructed>",
 			"Destroyed when the city is captured",
 			"Will not be displayed in Civilopedia"
