@@ -134,7 +134,7 @@
 			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"Can instantly construct a [Citadel] improvement <[2] times> <after which this unit is consumed>",
-			"Can be earned through combat",
+			"Can be earned through combat <for [Land] units>",
 			"Great Person - [War]",
 			"Unbuildable",
 			"Uncapturable"
@@ -150,7 +150,7 @@
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"Can hurry technology research",
 			"Can instantly construct a [Crystal Refinery] improvement <[2] times> <after which this unit is consumed>",
-			"Can be earned through combat",
+			"Can be earned through combat <for [Land] units>",
 			"Great Person - [War]",
 			"Unbuildable",
 			"Uncapturable"
@@ -171,12 +171,12 @@
 		"interceptRange": 1,
 		"uniques": [
 			"Personnel",
-			"Can be earned through combat",
+			"Can be earned through combat <for [Land] units>",
 			"Great Person - [War]",
 			"Unbuildable",
 			"Consumes [1] [Weapons]"
 		],
-		"promotions": ["Reconnaissance I", "Gas Mask", "[Ranger] ability"],
+		"promotions": ["Reconnaissance I", "Gas Mask", "Golden Age from Victories", "[Ranger] ability"],
 		"attackSound": "shot"
 	},
 	{
@@ -279,7 +279,7 @@
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"Can instantly construct a [Academy] improvement <[2] times> <after which this unit is consumed>",
 			"Can instantly construct a [Settlement] improvement <[2] times> <after which this unit is consumed>",
-			"Can be earned through combat",
+			"Can be earned through combat <for [Land] units>",
 			"Great Person - [War]",
 			"Unbuildable",
 			"Uncapturable"
@@ -296,7 +296,7 @@
 			"[+20]% Strength bonus for [Military] units within [2] tiles",
 			"Can instantly construct a [Citadel] improvement <[2] times> <after which this unit is consumed>",
 			"Great Person - [War]",
-			"Can be earned through combat",
+			"Can be earned through combat <for [Land] units>",
 			"Unbuildable",
 			"Uncapturable"
 		],
@@ -416,7 +416,7 @@
 			"Ignores terrain cost",
 			"Can instantly construct a [Citadel] improvement <[2] times> <after which this unit is consumed>",
 			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
-			"Can be earned through combat",
+			"Can be earned through combat <for [Land] units>",
 			"Great Person - [War]",
 			"Unbuildable",
 			"Uncapturable"
@@ -433,7 +433,7 @@
 			"[+5]% Strength bonus for [Military] units within [2] tiles <when adjacent to a [Coordinator Unit] unit>",
 			"Can instantly construct a [Citadel] improvement <[2] times> <after which this unit is consumed>",
 			"Great Person - [War]",
-			"Can be earned through combat",
+			"Can be earned through combat <for [Land] units>",
 			"Unbuildable",
 			"Uncapturable"
 		],
@@ -460,13 +460,17 @@
 		"replaces": "Great Admiral",
 		"uniqueTo": "Charybdis Division",
 		"uniques": [
-			"Can instantly construct a [Drydock] improvement <[2] times> <after which this unit is consumed>",
 			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"[+15]% Strength bonus for [Water] units within [2] tiles",
 			"[+15]% Strength bonus for [Submarine] units within [2] tiles",
+			"[1] free [Leviathan-Class Submarine] units appear <for all movement> <[2] times> <after which this unit is consumed>",
+			"May heal outside of friendly territory",
+			"[+15] HP when healing",
+			"All adjacent units heal [+15] HP when healing",
 			"Is part of Great Person group [Admiral]",
 			"Great Person - [Navy]",
+			"Can be earned through combat <for [Water] units>",
 			"Unbuildable",
 			"Uncapturable"
 		],
@@ -484,6 +488,7 @@
 			"All adjacent units heal [+15] HP when healing",
 			"Is part of Great Person group [Admiral]",
 			"Great Person - [Navy]",
+			"Can be earned through combat <for [Water] units>",
 			"Unbuildable",
 			"Uncapturable"
 		],
@@ -499,7 +504,7 @@
 			"Can instantly construct a [Outpost] improvement <[2] times> <after which this unit is consumed>",
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [45] Influence",
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
-			"Can be earned through combat",
+			"Can be earned through combat <for [Land] units>",
 			"Great Person - [War]",
 			"Unbuildable",
 			"Uncapturable"
@@ -516,9 +521,10 @@
 			"[+15]% Strength bonus for [Military] units within [3] tiles",
 			"Can instantly construct a [Citadel] improvement <[2] times> <after which this unit is consumed>",
 			"Can instantly construct a [Survivor camp] improvement <[2] times> <in tiles adjacent to [City ruins] tiles> <for [2] movement>",
-			"Can be earned through combat",
+			"Can be earned through combat <for [Land] units>",
 			"Great Person - [War]", 
-			"Unbuildable", "Uncapturable"
+			"Unbuildable",
+			"Uncapturable"
 		],
 		"movement": 2
 	},
@@ -573,7 +579,7 @@
 		"interceptRange": 1,
 		"uniques": [
 			"Personnel",
-			"Can be earned through combat",
+			"Can be earned through combat <for [Land] units>",
 			"Great Person - [War]",
 			"Unbuildable",
 			"Consumes [1] [Weapons]"
